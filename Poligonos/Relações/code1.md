@@ -7,7 +7,6 @@ Uma classe que herda é chamada de classe filha ou subclasse.
 Para estabelecer uma relação de herança, utiliza-se a palavra-chave extends.
 
 ## Exemplo:
-    '''
     public class Animal {
     // Atributos e métodos
 }
@@ -15,7 +14,6 @@ Para estabelecer uma relação de herança, utiliza-se a palavra-chave extends.
 public class Cachorro extends Animal {
     // Atributos e métodos específicos de Cachorro
 }
-'''
     
 ## Composição:
 
@@ -24,14 +22,12 @@ A composição é uma relação em que um objeto é composto por outros objetos.
 Em Java, a composição é geralmente implementada através da criação de objetos dentro de uma classe.
     
     ##Exemplo:
-    '''
     public class Carro {
     private Motor motor;
     private Roda[] rodas;
     // Outros atributos e métodos
 }
 
-    '''
 
 ##Agregação:
 
@@ -39,13 +35,11 @@ A agregação é uma forma especial de composição em que um objeto é composto
 Em Java, a agregação é semelhante à composição, mas os objetos podem ser compartilhados entre várias instâncias da classe principal.
     
     ##Exemplo:
-    '''
     public class Time {
     private Jogador[] jogadores;
     // Outros atributos e métodos
 }
 
-    '''
 
 ##Associação:
 
@@ -54,12 +48,10 @@ Pode ser bidirecional ou unidirecional.
 Em Java, a associação é frequentemente implementada através de atributos que mantêm referências para outras classes.
     
     ##Exemplo:
-    '''
     public class Pedido {
     private Cliente cliente;
     // Outros atributos e métodos
 }
-'''
 
 ##Dependência:
 
@@ -68,7 +60,6 @@ Não há propriedade entre as classes.
 A dependência é geralmente expressa através de parâmetros de métodos ou variáveis locais.
 
     ##Exemplo:
-    '''
     public class PedidoService {
     public void processarPedido(Pedido pedido) {
         // Lógica para processar o pedido
@@ -77,7 +68,6 @@ A dependência é geralmente expressa através de parâmetros de métodos ou var
 
 
 #Main:
-'''
 package relacoes;
 
 public class Relacoes {
@@ -102,7 +92,7 @@ public class Relacoes {
         System.out.println(banco);
         
         //Agregação
-        Vendedor vendedor = new Vendedor(1,"Marcos Wagner");
+        Vendedor vendedor = new Vendedor(1,"Ruan");
         Comprador comprador = new Comprador(1, "Fulano");
         
         System.out.println(vendedor);
@@ -120,10 +110,8 @@ public class Relacoes {
         System.out.println(comprador);
     }  
 }
-'''
 
     #Classe1:
-    '''
     
 package relacoes;
 
@@ -208,11 +196,9 @@ class ContaPoupanca extends Conta{
    ContaPoupanca(String agencia, int numero, double saldo) {
         super(agencia, numero, saldo);
     }
-    
-}'''
+    }
 
     #Classe2:
- '''
 package relacoes;
 
 public class Carro {
@@ -317,10 +303,10 @@ class Pneu{
         return "Pneu{" + "largura=" + largura + ", altura=" + altura + ", aro=" + aro + '}';
     }   
     
-}'''
+}
 
     #Vendedor:
-    '''
+  
     
 package relacoes;
 
@@ -359,10 +345,9 @@ public class Vendedor {
     }
     
 }
-'''
 
     #Comprador:
-    '''
+   
     
 package relacoes;
 
@@ -399,11 +384,11 @@ public class Comprador {
         return "Comprador{" + "codigo=" + codigo + ", nome=" + nome + '}';
     }
 }
-    '''
+   
 
     
     #Venda:
-    '''
+   
     
 package relacoes;
 
@@ -448,6 +433,4 @@ public class Venda {
     }
 }
 
-    '''
-    
 
