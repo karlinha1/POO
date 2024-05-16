@@ -6,14 +6,12 @@ A herança em Java permite que uma classe herde atributos e métodos de outra cl
 Uma classe que herda é chamada de classe filha ou subclasse.
 Para estabelecer uma relação de herança, utiliza-se a palavra-chave extends.
 
-## Exemplo:
     public class Animal {
-    // Atributos e métodos
-}
+    // Atributos e métodos}
 
-public class Cachorro extends Animal {
-    // Atributos e métodos específicos de Cachorro
-}
+    
+    public class Cachorro extends Animal {
+    // Atributos e métodos específicos de Cachorro}
     
 ## Composição:
 
@@ -21,12 +19,12 @@ A composição é uma relação em que um objeto é composto por outros objetos.
 É uma forma de construir classes complexas combinando outras classes menores.
 Em Java, a composição é geralmente implementada através da criação de objetos dentro de uma classe.
     
-    ##Exemplo:
     public class Carro {
     private Motor motor;
+
+    
     private Roda[] rodas;
-    // Outros atributos e métodos
-}
+    // Outros atributos e métodos}
 
 
 ##Agregação:
@@ -34,11 +32,9 @@ Em Java, a composição é geralmente implementada através da criação de obje
 A agregação é uma forma especial de composição em que um objeto é composto por outros objetos, mas esses objetos também podem existir independentemente do objeto principal.
 Em Java, a agregação é semelhante à composição, mas os objetos podem ser compartilhados entre várias instâncias da classe principal.
     
-    ##Exemplo:
     public class Time {
     private Jogador[] jogadores;
-    // Outros atributos e métodos
-}
+    // Outros atributos e métodos}
 
 
 ##Associação:
@@ -47,11 +43,9 @@ A associação é uma relação entre duas classes em que uma classe conhece a o
 Pode ser bidirecional ou unidirecional.
 Em Java, a associação é frequentemente implementada através de atributos que mantêm referências para outras classes.
     
-    ##Exemplo:
     public class Pedido {
     private Cliente cliente;
-    // Outros atributos e métodos
-}
+    // Outros atributos e métodos}
 
 ##Dependência:
 
@@ -59,20 +53,18 @@ A dependência é uma relação em que uma classe usa outra classe temporariamen
 Não há propriedade entre as classes.
 A dependência é geralmente expressa através de parâmetros de métodos ou variáveis locais.
 
-    ##Exemplo:
+
     public class PedidoService {
     public void processarPedido(Pedido pedido) {
-        // Lógica para processar o pedido
-    }
+        // Lógica para processar o pedido}
 }
 
 
 #Main:
 package relacoes;
 
-public class Relacoes {
-
-    public static void main(String[] args) {
+        public class Relacoes { 
+        public static void main(String[] args) {
         
         //Associação
         Carro carro = new Carro("Prata", new Pneu(255, 60, 18));   
@@ -108,14 +100,13 @@ public class Relacoes {
         System.out.println(venda);
         System.out.println(vendedor);
         System.out.println(comprador);
-    }  
-}
+    } }
 
     #Classe1:
     
-package relacoes;
+        package relacoes;
 
-public class Banco {
+    public class Banco {
     //atributos
     String nome;
     ContaCorrente contasCorrente[];
@@ -139,11 +130,10 @@ public class Banco {
         }
         
         return "Banco{" + "nome = " + nome + "\ncontasCorrente=" + correnteStr + "\ncontasPoupanca=" + poupancaStr + '}';
+    } 
     }
-      
-}
 
-class Conta{
+    class Conta{
     String agencia;
     int numero;
     double saldo;
@@ -183,25 +173,24 @@ class Conta{
         return "\nConta{" + "agencia=" + agencia + ", numero=" + numero + ", saldo=" + saldo + '}';
     }
     
-}
+    }
 
-class ContaCorrente extends Conta{   
+    class ContaCorrente extends Conta{   
     ContaCorrente(String agencia, int numero, double saldo) {
         super(agencia, numero, saldo);
     }
     
-}
+    }
 
-class ContaPoupanca extends Conta{
-   ContaPoupanca(String agencia, int numero, double saldo) {
-        super(agencia, numero, saldo);
-    }
-    }
+    class ContaPoupanca extends Conta{
+       ContaPoupanca(String agencia, int numero, double saldo) {
+        super(agencia, numero, saldo);}
+        }
 
     #Classe2:
-package relacoes;
+    package relacoes;
 
-public class Carro {
+    public class Carro {
     //atributos
     String cor;
     Pneu p1, p2, p3, p4;
@@ -261,7 +250,7 @@ public class Carro {
     }      
 }
 
-class Pneu{
+    class Pneu{
     //atributos
     private int largura;
     private int altura;
@@ -308,10 +297,10 @@ class Pneu{
     #Vendedor:
   
     
-package relacoes;
+    package relacoes;
 
 
-public class Vendedor {
+    public class Vendedor {
     //atributos
     private int codigo;
     private String nome;
@@ -344,14 +333,14 @@ public class Vendedor {
         return "Vendedor{" + "codigo=" + codigo + ", nome=" + nome + '}';
     }
     
-}
+    }
 
     #Comprador:
    
     
-package relacoes;
+    package relacoes;
 
-public class Comprador {
+    public class Comprador {
     //atributos
     private int codigo;
     private String nome;
@@ -390,9 +379,9 @@ public class Comprador {
     #Venda:
    
     
-package relacoes;
+    package relacoes;
 
-public class Venda {
+    public class Venda {
     private Comprador comprador;
     private Vendedor vendedor;
     private String produto;
@@ -431,6 +420,6 @@ public class Venda {
     public String toString() {
         return "Venda{" + comprador + "\n" + vendedor + "\nProduto=" + produto + '}';
     }
-}
+    }    
 
 
