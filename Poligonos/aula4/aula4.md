@@ -1,4 +1,4 @@
-### Herança em Java
+### Herança
 
 A herança é um conceito fundamental da programação orientada a objetos, permitindo a criação de hierarquias de classes onde uma classe (subclasse) pode herdar atributos e métodos de outra classe (superclasse). Em Java, isso é implementado usando a palavra-chave `extends`.
 
