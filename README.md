@@ -5,7 +5,6 @@
 <p align="center">
   <img src="https://github.com/karlinha1/POO/assets/113637620/b1e0527b-1a91-4276-a4d6-06a51d28e79c" alt="Imagem 1" width="200" height="200">
 </p>
-##
 <p align="left">
   <img src="https://see.fontimg.com/api/renderfont4/vmEyA/eyJyIjoiZnMiLCJoIjozOCwidyI6MTI1MCwiZnMiOjMwLCJmZ2MiOiIjNUE1QUVDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q09OVEVOVFM6/love-glitch-personal-use-regular.png" style="cursor: default;">
 </p>
