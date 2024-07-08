@@ -20,20 +20,21 @@
 
 <br><br><br>
 <br><br><br>
-
+##
 <p align="left">
   <img src="https://see.fontimg.com/api/renderfont4/vmEyA/eyJyIjoiZnMiLCJoIjozOCwidyI6MTI1MCwiZnMiOjMwLCJmZ2MiOiIjNUE1QUVDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q09OVEVOVFM6/love-glitch-personal-use-regular.png">
 </p>
 
 <br><br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Trabalho 1  (20/05/2024)
-<br><br>
+<br>##<br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Trabalho 2  (03/06/2024)
-<br><br>
+<br>##<br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Projeto Prático (06/06/2024)
-<br><br>
+<br>##<br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Trabalho 3  (20/06/2024)
-<br><br>
+<br>##<br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Trabalho 4  (15/07/2024)
-<br><br>
+<br>##<br>
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 2](https://github.com/karlinha1/POO/assets/113637620/9da2450c-5a5d-4ae9-9e84-d20e59f5b2f5) - Projeto Prático  (18/07/2024)
+##
