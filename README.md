@@ -5,8 +5,10 @@
 <p align="center">
   <img src="https://github.com/karlinha1/POO/assets/113637620/b1e0527b-1a91-4276-a4d6-06a51d28e79c" alt="Imagem 1" width="200" height="200">
 </p>
+
+##
 <p align="left">
-  <img src="https://see.fontimg.com/api/renderfont4/vmEyA/eyJyIjoiZnMiLCJoIjozOCwidyI6MTI1MCwiZnMiOjMwLCJmZ2MiOiIjNUE1QUVDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q09OVEVOVFM6/love-glitch-personal-use-regular.png" style="cursor: default;">
+  <img src="https://see.fontimg.com/api/renderfont4/vmEyA/eyJyIjoiZnMiLCJoIjozOCwidyI6MTI1MCwiZnMiOjMwLCJmZ2MiOiIjNUE1QUVDIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/Q09OVEVOVFM6/love-glitch-personal-use-regular.png">
 </p>
 
 ![42a19e8e-1140-4aa7-aae8-6adc0024ba74-removebg-preview 1](https://github.com/karlinha1/POO/assets/113637620/bd2aff9c-6429-45d6-8798-6aa3e8c9b9ca) Introdução
